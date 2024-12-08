@@ -1,0 +1,19 @@
+# Una imagen de Node.js
+FROM node:20
+
+# Establecer el directorio de trabajo
+WORKDIR /app
+
+#Copia los archivos necesarios
+COPY package*.json ./
+RUN npm install
+
+
+# Copiar el resto de la aplicación
+COPY . .
+
+# Exponer el puerto que utiliza Vite
+EXPOSE 5173
+
+# Iniciar la aplicación
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
