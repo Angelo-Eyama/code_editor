@@ -39,8 +39,8 @@ Esta es la estructura de la aplicacion, se citan los eleementos y componentes qu
 1. Clona el repositorio:
 
     ```sh
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_REPOSITORIO>
+    git clone git@github.com:Angelo-Eyama/code_editor
+    cd code_editor
     ```
 
 2. Construye y levanta los contenedores usando Docker Compose:
