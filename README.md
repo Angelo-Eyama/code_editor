@@ -2,6 +2,10 @@
 
 Este proyecto es un editor en línea que permite compilar y ejecutar código en JavaScript, Python y C. El editor está construido utilizando FastAPI para el backend y una aplicación React para el frontend.
 
+## Demo
+
+<video src="media/demo.mp4" width="620" height="300" autoplay loop controls></video>
+
 ## Estructura del Proyecto
 
 Esta es la estructura de la aplicacion, se citan los eleementos y componentes que considero relevantes.
@@ -10,6 +14,7 @@ Esta es la estructura de la aplicacion, se citan los eleementos y componentes qu
 .
 ├── .dockerignore                  # Archivos y directorios ignorados por Docker
 ├── compose.yaml                   # Archivo de configuración para Docker Compose
+├── media                          # Carpeta con los archivos para el README (iconos, imagenes, etc)
 ├── fastApi/                       # Carpeta del backend con FastAPI
 │   ├── app/                       # Directorio de la aplicación FastAPI
 │   │   └── main.py                # Archivo principal de la API
