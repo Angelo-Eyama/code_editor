@@ -1,10 +1,8 @@
 # Online Code Editor
+![Demo](media/demo-image.jpg)
 
-Este proyecto es un editor en línea que permite compilar y ejecutar código en JavaScript, Python y C. El editor está construido utilizando FastAPI para el backend y una aplicación React para el frontend.
+Este proyecto es un editor en línea que permite compilar y ejecutar código en JavaScript, Python y C. El editor está construido utilizando FastAPI para el backend y una aplicación React para el frontend. Ambos componentes están contenerizados con Docker y se pueden ejecutar con Docker Compose.
 
-## Demo
-
-<video src="media/demo.mp4" width="620" height="300" autoplay loop controls></video>
 
 ## Estructura del Proyecto
 
